@@ -63,7 +63,7 @@ if(!class_exists('Divi_Backup_Restore_Theme_Options')){
 						}
 					}
 				}
-				wp_redirect(admin_url('themes.php?page=divi-backup'));
+				wp_redirect(admin_url('tools.php?page=divi-backup'));
 				exit;
 			}
 		}
